@@ -2,3 +2,8 @@ sudo adduser nexus
 passwd nexus
 chown -R nexus:nexus /opt/nexus
 chown -R nexus:nexus /opt/sonatype-work
+
+nano nexus.rc
+nexus as user =nexus
+
+https://help.sonatype.com/repomanager3/installation-and-upgrades/run-as-a-service
