@@ -1,0 +1,4 @@
+sudo adduser nexus
+passwd nexus
+chown -R nexus:nexus /opt/nexus
+chown -R nexus:nexus /opt/sonatype-work
